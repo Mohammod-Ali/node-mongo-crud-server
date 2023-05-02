@@ -74,8 +74,6 @@ async function run() {
 
 run().catch((err) => console.log(err));
 
-run().catch((err) => console.log(err));
-
 app.get("/", (req, res) => {
   res.send("Hello from node mongo server");
 });
